@@ -1,0 +1,13 @@
+{
+  "name": "kaoyan-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "考研院校通 API 服务",
+  "scripts": {
+    "import": "node import_data.js",
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  }
+}

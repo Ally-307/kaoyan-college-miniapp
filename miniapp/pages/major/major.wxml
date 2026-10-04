@@ -1,0 +1,279 @@
+<!-- 专业详情页 -->
+<view class="page">
+  <view wx:if="{{loading}}" class="loading-mask">
+    <view class="loading-spinner"></view>
+  </view>
+
+  <view wx:elif="{{error}}" class="empty-state">
+    <text class="empty-icon">😕</text>
+    <text class="empty-text">未找到该专业信息</text>
+  </view>
+
+  <view wx:else class="page-content">
+    <!-- ========== 专业头部 ========== -->
+    <view class="major-header">
+      <view class="major-header-inner">
+        <view class="major-breadcrumb">
+          <text class="breadcrumb-link" bindtap="onGoBack">{{school.name}}</text>
+          <text class="breadcrumb-sep">›</text>
+          <text class="breadcrumb-current">{{major.name}}</text>
+        </view>
+        <view class="major-title-row">
+          <text class="major-name">{{major.name}}</text>
+          <text class="major-code">{{major.code}}</text>
+        </view>
+        <view class="major-badges">
+          <view class="degree-badge {{major.degreeType === '专业学位' ? 'professional' : 'academic'}}">{{major.degreeType}}</view>
+          <view wx:if="{{major.studyMode}}" class="minor-badge">{{major.studyMode}}</view>
+          <view class="minor-badge">{{major.category}}</view>
+        </view>
+        <view wx:if="{{major.direction}}" class="major-direction">
+          <text class="dir-label">研究方向：</text>
+          <text class="dir-text">{{major.direction}}</text>
+        </view>
+      </view>
+    </view>
+
+    <!-- ========== 快速导航标签 ========== -->
+    <view class="nav-tabs">
+      <view class="nav-tab {{activeSection === 'exam' ? 'active' : ''}}" data-section="exam" bindtap="scrollToSection">
+        <text>📚 初试</text>
+      </view>
+      <view class="nav-tab {{activeSection === 'reexam' ? 'active' : ''}}" data-section="reexam" bindtap="scrollToSection">
+        <text>🎯 复试</text>
+      </view>
+      <view class="nav-tab {{activeSection === 'reference' ? 'active' : ''}}" data-section="reference" bindtap="scrollToSection">
+        <text>📖 参考书</text>
+      </view>
+      <view class="nav-tab {{activeSection === 'data' ? 'active' : ''}}" data-section="data" bindtap="scrollToSection">
+        <text>📊 历年数据</text>
+      </view>
+      <view class="nav-tab {{activeSection === 'other' ? 'active' : ''}}" data-section="other" bindtap="scrollToSection">
+        <text>ℹ️ 其他</text>
+      </view>
+    </view>
+
+    <!-- ========== 初试信息 ========== -->
+    <view id="section-exam" class="card section-card">
+      <view class="section-title">
+        <view class="section-title-icon"></view>
+        <text>初试信息</text>
+      </view>
+      <view class="exam-total" wx:if="{{major.initialExam.totalScore}}">
+        <text class="total-label">总分：</text>
+        <text class="total-value">{{major.initialExam.totalScore}}分</text>
+      </view>
+      <view class="exam-subjects">
+        <view class="subject-header">
+          <text class="sub-code">科目代码</text>
+          <text class="sub-name">科目名称</text>
+          <text class="sub-type">类型</text>
+          <text class="sub-score">分值</text>
+        </view>
+        <view wx:for="{{major.initialExam.subjects}}" wx:key="code" class="subject-row">
+          <text class="sub-code">{{item.code}}</text>
+          <text class="sub-name">{{item.name}}</text>
+          <text class="sub-type">
+            <view class="type-badge {{item.type === '统考' ? 'unified' : 'self'}}">{{item.type}}</view>
+          </text>
+          <text class="sub-score">{{item.score}}分</text>
+        </view>
+      </view>
+    </view>
+
+    <!-- ========== 复试信息 ========== -->
+    <view id="section-reexam" class="card section-card">
+      <view class="section-title">
+        <view class="section-title-icon"></view>
+        <text>复试信息</text>
+      </view>
+      <view wx:if="{{!major.reexam || (!major.reexam.subjects || major.reexam.subjects.length === 0)}}" class="empty-minor">
+        <text class="empty-text">暂无复试信息</text>
+      </view>
+      <view wx:else class="reexam-content">
+        <view class="info-grid">
+          <view class="info-grid-item" wx:if="{{major.reexam.method}}">
+            <text class="grid-label">复试方式</text>
+            <text class="grid-value">{{major.reexam.method}}</text>
+          </view>
+          <view class="info-grid-item" wx:if="{{major.reexam.ratio}}">
+            <text class="grid-label">复录比</text>
+            <text class="grid-value highlight">{{major.reexam.ratio}}</text>
+          </view>
+          <view class="info-grid-item" wx:if="{{major.reexam.scoreWeight}}">
+            <text class="grid-label">复试权重</text>
+            <text class="grid-value">{{major.reexam.scoreWeight}}</text>
+          </view>
+        </view>
+        <view class="reexam-subjects" wx:if="{{major.reexam.subjects && major.reexam.subjects.length > 0}}">
+          <text class="subjects-label">复试内容：</text>
+          <view class="subjects-list">
+            <view wx:for="{{major.reexam.subjects}}" wx:key="*this" class="subject-chip">{{item}}</view>
+          </view>
+        </view>
+      </view>
+
+      <!-- 加试信息 -->
+      <view wx:if="{{major.additionalExam}}" class="additional-exam">
+        <view class="divider"></view>
+        <text class="add-exam-title">📌 加试信息（同等学力）</text>
+        <view wx:if="{{major.additionalExam.subjects}}" class="subjects-list">
+          <view wx:for="{{major.additionalExam.subjects}}" wx:key="*this" class="subject-chip warn">{{item}}</view>
+        </view>
+        <text wx:if="{{major.additionalExam.note}}" class="add-note">{{major.additionalExam.note}}</text>
+      </view>
+    </view>
+
+    <!-- ========== 参考书目 ========== -->
+    <view id="section-reference" class="card section-card">
+      <view class="section-title">
+        <view class="section-title-icon"></view>
+        <text>参考书目</text>
+      </view>
+      <view wx:if="{{!major.references || major.references.length === 0}}" class="empty-minor">
+        <text class="empty-text">暂无参考书目信息</text>
+      </view>
+      <view wx:else class="reference-list">
+        <view wx:for="{{major.references}}" wx:key="*this" class="reference-item">
+          <view class="ref-top">
+            <text class="ref-name">{{item.name}}</text>
+            <view class="ref-badges">
+              <view wx:if="{{item.isRequired}}" class="ref-badge required">必读</view>
+              <view wx:if="{{item.type}}" class="ref-badge type">{{item.type}}</view>
+            </view>
+          </view>
+          <view class="ref-details">
+            <text wx:if="{{item.author}}" class="ref-detail">作者：{{item.author}}</text>
+            <text wx:if="{{item.publisher}}" class="ref-detail">出版社：{{item.publisher}}</text>
+            <text wx:if="{{item.edition}}" class="ref-detail">{{item.edition}}</text>
+          </view>
+        </view>
+      </view>
+    </view>
+
+    <!-- ========== 历年招生数据 ========== -->
+    <view id="section-data" class="card section-card">
+      <view class="section-title">
+        <view class="section-title-icon"></view>
+        <text>历年招生数据</text>
+      </view>
+      <view wx:if="{{!major.admissionData || major.admissionData.length === 0}}" class="empty-minor">
+        <text class="empty-text">暂无历年数据</text>
+      </view>
+      <view wx:else class="admission-data">
+        <view class="data-table-wrapper">
+          <view class="table-scroll">
+            <view class="data-table">
+              <!-- 表头 -->
+              <view class="table-row header">
+                <view class="table-cell col-year">年份</view>
+                <view class="table-cell col-line">复试线</view>
+                <view class="table-cell col-min">最低</view>
+                <view class="table-cell col-max">最高</view>
+                <view class="table-cell col-avg">平均</view>
+                <view class="table-cell col-ratio">复录比</view>
+                <view class="table-cell col-apply">报录比</view>
+              </view>
+              <!-- 数据行 -->
+              <view wx:for="{{major.admissionData}}" wx:key="year" class="table-row">
+                <view class="table-cell col-year">{{item.year}}</view>
+                <view class="table-cell col-line highlight">{{item.reexamLine || '-'}}</view>
+                <view class="table-cell col-min">{{item.minAdmissionScore || '-'}}</view>
+                <view class="table-cell col-max">{{item.maxAdmissionScore || '-'}}</view>
+                <view class="table-cell col-avg">{{item.avgAdmissionScore || '-'}}</view>
+                <view class="table-cell col-ratio">{{item._reexamRatio || '-'}}</view>
+                <view class="table-cell col-apply">{{item._appRatio || '-'}}</view>
+              </view>
+            </view>
+          </view>
+        </view>
+        <view wx:if="{{major.admissionData[0] && major.admissionData[0].reexamLineNote}}" class="data-note">
+          <text>📝 {{major.admissionData[0].reexamLineNote}}</text>
+        </view>
+      </view>
+    </view>
+
+    <!-- ========== 其他信息 ========== -->
+    <view id="section-other" class="card section-card">
+      <view class="section-title">
+        <view class="section-title-icon"></view>
+        <text>其他信息</text>
+      </view>
+      <view class="other-grid">
+        <view class="other-item" wx:if="{{major.duration}}">
+          <text class="other-icon">⏱</text>
+          <view class="other-body">
+            <text class="other-label">学制</text>
+            <text class="other-value">{{major.duration}}</text>
+          </view>
+        </view>
+        <view class="other-item" wx:if="{{major.tuition}}">
+          <text class="other-icon">💰</text>
+          <view class="other-body">
+            <text class="other-label">学费</text>
+            <text class="other-value">{{major.tuition}}</text>
+          </view>
+        </view>
+        <view class="other-item" wx:if="{{major.scholarship}}">
+          <text class="other-icon">🏆</text>
+          <view class="other-body">
+            <text class="other-label">奖学金</text>
+            <text class="other-value">{{major.scholarship}}</text>
+          </view>
+        </view>
+        <view class="other-item" wx:if="{{major.crossMajorPolicy}}">
+          <text class="other-icon">🔄</text>
+          <view class="other-body">
+            <text class="other-label">跨考政策</text>
+            <text class="other-value {{major.crossMajorPolicy === '不接受' ? 'warn-text' : ''}}">{{major.crossMajorPolicy}}</text>
+          </view>
+        </view>
+        <view class="other-item" wx:if="{{major.equivalentEducationPolicy}}">
+          <text class="other-icon">📋</text>
+          <view class="other-body">
+            <text class="other-label">同等学力</text>
+            <text class="other-value">{{major.equivalentEducationPolicy}}</text>
+          </view>
+        </view>
+        <view class="other-item" wx:if="{{major.accommodation}}">
+          <text class="other-icon">🏠</text>
+          <view class="other-body">
+            <text class="other-label">住宿</text>
+            <text class="other-value">{{major.accommodation}}</text>
+          </view>
+        </view>
+      </view>
+    </view>
+
+    <!-- ========== 联系方式 ========== -->
+    <view wx:if="{{major.contact}}" class="card section-card">
+      <view class="section-title">
+        <view class="section-title-icon"></view>
+        <text>院系联系方式</text>
+      </view>
+      <view class="contact-list">
+        <view wx:if="{{major.contact.department}}" class="contact-item">{{major.contact.department}}</view>
+        <view wx:if="{{major.contact.phone}}" class="contact-item">📞 {{major.contact.phone}}</view>
+        <view wx:if="{{major.contact.email}}" class="contact-item">✉️ {{major.contact.email}}</view>
+        <view wx:if="{{major.contact.website}}" class="contact-item">🌐 {{major.contact.website}}</view>
+      </view>
+    </view>
+
+    <!-- ========== 注意事项 ========== -->
+    <view wx:if="{{major.notes && major.notes.length > 0}}" class="card section-card notes-card">
+      <view class="section-title">
+        <view class="section-title-icon"></view>
+        <text>备考建议 & 注意事项</text>
+      </view>
+      <view class="notes-list">
+        <view wx:for="{{major.notes}}" wx:key="*this" class="note-item">
+          <text class="note-bullet">•</text>
+          <text class="note-text">{{item}}</text>
+        </view>
+      </view>
+    </view>
+
+    <!-- 底部留白 -->
+    <view class="bottom-spacer"></view>
+  </view>
+</view>

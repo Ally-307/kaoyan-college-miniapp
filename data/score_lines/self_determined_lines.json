@@ -1,0 +1,858 @@
+{
+  "source": "https://yz.chsi.com.cn/kyzx/zt/lnfsx2026.shtml",
+  "fetchedAt": "2026-07-31T06:01:45.362446+00:00",
+  "description": "34所自划线高校复试分数线链接（2022-2026）",
+  "schools": [
+    {
+      "yxmc": "北京大学",
+      "yearList": [
+        {
+          "year": "2026",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202603/20260313/2293450316.html"
+        },
+        {
+          "year": "2025",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202503/20250312/2293356009.html"
+        },
+        {
+          "year": "2024",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202403/20240313/2293269553.html"
+        },
+        {
+          "year": "2023",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202303/20230311/2265499663.html"
+        },
+        {
+          "year": "2022",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202203/20220314/2172647545.html"
+        }
+      ]
+    },
+    {
+      "yxmc": "中国人民大学",
+      "yearList": [
+        {
+          "year": "2026",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202603/20260316/2293451658.html"
+        },
+        {
+          "year": "2025",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202503/20250315/2293363141.html"
+        },
+        {
+          "year": "2024",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202403/20240319/2293271821.html"
+        },
+        {
+          "year": "2023",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202303/20230317/2266967768.html"
+        },
+        {
+          "year": "2022",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202203/20220317/2174014413.html"
+        }
+      ]
+    },
+    {
+      "yxmc": "清华大学",
+      "yearList": [
+        {
+          "year": "2026",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202603/20260313/2293450320.html"
+        },
+        {
+          "year": "2025",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202503/20250312/2293356006.html"
+        },
+        {
+          "year": "2024",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202403/20240313/2293269549.html"
+        },
+        {
+          "year": "2023",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202303/20230311/2265499660.html"
+        },
+        {
+          "year": "2022",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202203/20220314/2172647542.html"
+        }
+      ]
+    },
+    {
+      "yxmc": "北京航空航天大学",
+      "yearList": [
+        {
+          "year": "2026",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202603/20260316/2293451686.html"
+        },
+        {
+          "year": "2025",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202503/20250312/2293355991.html"
+        },
+        {
+          "year": "2024",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202403/20240315/2293271646.html"
+        },
+        {
+          "year": "2023",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202303/20230316/2266235701.html"
+        },
+        {
+          "year": "2022",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202203/20220316/2173877359.html"
+        }
+      ]
+    },
+    {
+      "yxmc": "北京理工大学",
+      "yearList": [
+        {
+          "year": "2026",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202603/20260316/2293450427.html"
+        },
+        {
+          "year": "2025",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202503/20250313/2293357804.html"
+        },
+        {
+          "year": "2024",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202403/20240315/2293271653.html"
+        },
+        {
+          "year": "2023",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202303/20230318/2267101721.html"
+        },
+        {
+          "year": "2022",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202203/20220314/2173032779.html"
+        }
+      ]
+    },
+    {
+      "yxmc": "中国农业大学",
+      "yearList": [
+        {
+          "year": "2026",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202603/20260318/2293452066.html"
+        },
+        {
+          "year": "2025",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202503/20250313/2293357877.html"
+        },
+        {
+          "year": "2024",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202403/20240314/2293265017.html"
+        },
+        {
+          "year": "2023",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202303/20230315/2266234786.html"
+        },
+        {
+          "year": "2022",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202203/20220314/2172647575.html"
+        }
+      ]
+    },
+    {
+      "yxmc": "北京师范大学",
+      "yearList": [
+        {
+          "year": "2026",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202603/20260313/2293451575.html"
+        },
+        {
+          "year": "2025",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202503/20250312/2293356019.html"
+        },
+        {
+          "year": "2024",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202403/20240315/2293269896.html"
+        },
+        {
+          "year": "2023",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202303/20230316/2266427775.html"
+        },
+        {
+          "year": "2022",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202203/20220314/2172923750.html"
+        }
+      ]
+    },
+    {
+      "yxmc": "南开大学",
+      "yearList": [
+        {
+          "year": "2026",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202603/20260313/2293451584.html"
+        },
+        {
+          "year": "2025",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202503/20250314/2293362930.html"
+        },
+        {
+          "year": "2024",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202403/20240316/2293271666.html"
+        },
+        {
+          "year": "2023",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202303/20230315/2266235541.html"
+        },
+        {
+          "year": "2022",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202203/20220314/2172647583.html"
+        }
+      ]
+    },
+    {
+      "yxmc": "天津大学",
+      "yearList": [
+        {
+          "year": "2026",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202603/20260316/2293451649.html"
+        },
+        {
+          "year": "2025",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202503/20250313/2293357892.html"
+        },
+        {
+          "year": "2024",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202403/20240314/2293265050.html"
+        },
+        {
+          "year": "2023",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202303/20230315/2266235604.html"
+        },
+        {
+          "year": "2022",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202203/20220314/2172648078.html"
+        }
+      ]
+    },
+    {
+      "yxmc": "大连理工大学",
+      "yearList": [
+        {
+          "year": "2026",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202603/20260316/2293451705.html"
+        },
+        {
+          "year": "2025",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202503/20250313/2293361163.html"
+        },
+        {
+          "year": "2024",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202403/20240318/2293271744.html"
+        },
+        {
+          "year": "2023",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202303/20230316/2266634128.html"
+        },
+        {
+          "year": "2022",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202203/20220314/2172647623.html"
+        }
+      ]
+    },
+    {
+      "yxmc": "东北大学",
+      "yearList": [
+        {
+          "year": "2026",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202603/20260316/2293451677.html"
+        },
+        {
+          "year": "2025",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202503/20250313/2293357871.html"
+        },
+        {
+          "year": "2024",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202403/20240315/2293269912.html"
+        },
+        {
+          "year": "2023",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202303/20230314/2266099269.html"
+        },
+        {
+          "year": "2022",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202203/20220314/2172647964.html"
+        }
+      ]
+    },
+    {
+      "yxmc": "吉林大学",
+      "yearList": [
+        {
+          "year": "2026",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202603/20260318/2293452070.html"
+        },
+        {
+          "year": "2025",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202503/20250311/2293357676.html"
+        },
+        {
+          "year": "2024",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202403/20240315/2293269868.html"
+        },
+        {
+          "year": "2023",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202303/20230313/2265825311.html"
+        },
+        {
+          "year": "2022",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202203/20220314/2172648007.html"
+        }
+      ]
+    },
+    {
+      "yxmc": "哈尔滨工业大学",
+      "yearList": [
+        {
+          "year": "2026",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202603/20260316/2293451664.html"
+        },
+        {
+          "year": "2025",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202503/20250312/2293357769.html"
+        },
+        {
+          "year": "2024",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202403/20240314/2293269728.html"
+        },
+        {
+          "year": "2023",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202303/20230315/2266212073.html"
+        },
+        {
+          "year": "2022",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202203/20220314/2172647562.html"
+        }
+      ]
+    },
+    {
+      "yxmc": "复旦大学",
+      "yearList": [
+        {
+          "year": "2026",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202603/20260317/2293450581.html"
+        },
+        {
+          "year": "2025",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202503/20250313/2293357798.html"
+        },
+        {
+          "year": "2024",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202403/20240318/2293271231.html"
+        },
+        {
+          "year": "2023",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202303/20230317/2266827308.html"
+        },
+        {
+          "year": "2022",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202203/20220317/2173861309.html"
+        }
+      ]
+    },
+    {
+      "yxmc": "同济大学",
+      "yearList": [
+        {
+          "year": "2026",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202603/20260316/2293450397.html"
+        },
+        {
+          "year": "2025",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202503/20250312/2293356026.html"
+        },
+        {
+          "year": "2024",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202403/20240315/2293271671.html"
+        },
+        {
+          "year": "2023",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202303/20230313/2265794613.html"
+        },
+        {
+          "year": "2022",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202203/20220314/2172648046.html"
+        }
+      ]
+    },
+    {
+      "yxmc": "上海交通大学",
+      "yearList": [
+        {
+          "year": "2026",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202603/20260316/2293450495.html"
+        },
+        {
+          "year": "2025",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202503/20250313/2293357812.html"
+        },
+        {
+          "year": "2024",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202403/20240313/2293269707.html"
+        },
+        {
+          "year": "2023",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202303/20230313/2265890399.html"
+        },
+        {
+          "year": "2022",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202203/20220314/2172774166.html"
+        }
+      ]
+    },
+    {
+      "yxmc": "南京大学",
+      "yearList": [
+        {
+          "year": "2026",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202603/20260316/2293451654.html"
+        },
+        {
+          "year": "2025",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202503/20250314/2293362923.html"
+        },
+        {
+          "year": "2024",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202403/20240318/2293271810.html"
+        },
+        {
+          "year": "2023",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202303/20230315/2266212083.html"
+        },
+        {
+          "year": "2022",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202203/20220318/2174064591.html"
+        }
+      ]
+    },
+    {
+      "yxmc": "东南大学",
+      "yearList": [
+        {
+          "year": "2026",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202603/20260316/2293451708.html"
+        },
+        {
+          "year": "2025",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202503/20250314/2293363042.html"
+        },
+        {
+          "year": "2024",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202403/20240315/2293269846.html"
+        },
+        {
+          "year": "2023",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202303/20230316/2266235707.html"
+        },
+        {
+          "year": "2022",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202203/20220317/2173968090.html"
+        }
+      ]
+    },
+    {
+      "yxmc": "浙江大学",
+      "yearList": [
+        {
+          "year": "2026",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202603/20260316/2293451645.html"
+        },
+        {
+          "year": "2025",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202503/20250313/2293357790.html"
+        },
+        {
+          "year": "2024",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202403/20240314/2293269759.html"
+        },
+        {
+          "year": "2023",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202303/20230312/2265499675.html"
+        },
+        {
+          "year": "2022",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202203/20220314/2172647557.html"
+        }
+      ]
+    },
+    {
+      "yxmc": "中国科学技术大学",
+      "yearList": [
+        {
+          "year": "2026",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202603/20260316/2293451669.html"
+        },
+        {
+          "year": "2025",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202503/20250312/2293357758.html"
+        },
+        {
+          "year": "2024",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202403/20240318/2293271130.html"
+        },
+        {
+          "year": "2023",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202303/20230314/2266178284.html"
+        },
+        {
+          "year": "2022",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202203/20220314/2173083689.html"
+        }
+      ]
+    },
+    {
+      "yxmc": "厦门大学",
+      "yearList": [
+        {
+          "year": "2026",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202603/20260316/2293451690.html"
+        },
+        {
+          "year": "2025",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202503/20250315/2293363150.html"
+        },
+        {
+          "year": "2024",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202403/20240315/2293269958.html"
+        },
+        {
+          "year": "2023",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202303/20230315/2266234782.html"
+        },
+        {
+          "year": "2022",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202203/20220314/2172773283.html"
+        }
+      ]
+    },
+    {
+      "yxmc": "山东大学",
+      "yearList": [
+        {
+          "year": "2026",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202603/20260316/2293451694.html"
+        },
+        {
+          "year": "2025",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202503/20250313/2293357952.html"
+        },
+        {
+          "year": "2024",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202403/20240315/2293265092.html"
+        },
+        {
+          "year": "2023",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202303/20230314/2266180145.html"
+        },
+        {
+          "year": "2022",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202203/20220314/2172774182.html"
+        }
+      ]
+    },
+    {
+      "yxmc": "武汉大学",
+      "yearList": [
+        {
+          "year": "2026",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202603/20260316/2293451720.html"
+        },
+        {
+          "year": "2025",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202503/20250313/2293361213.html"
+        },
+        {
+          "year": "2024",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202403/20240315/2293269858.html"
+        },
+        {
+          "year": "2023",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202303/20230314/2266168872.html"
+        },
+        {
+          "year": "2022",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202203/20220318/2174067809.html"
+        }
+      ]
+    },
+    {
+      "yxmc": "华中科技大学",
+      "yearList": [
+        {
+          "year": "2026",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202603/20260316/2293450423.html"
+        },
+        {
+          "year": "2025",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202503/20250315/2293363146.html"
+        },
+        {
+          "year": "2024",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202403/20240322/2293272539.html"
+        },
+        {
+          "year": "2023",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202303/20230318/2267101711.html"
+        },
+        {
+          "year": "2022",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202203/20220318/2174067800.html"
+        }
+      ]
+    },
+    {
+      "yxmc": "湖南大学",
+      "yearList": [
+        {
+          "year": "2026",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202603/20260316/2293451672.html"
+        },
+        {
+          "year": "2025",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202503/20250318/2293363539.html"
+        },
+        {
+          "year": "2024",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202403/20240319/2293271268.html"
+        },
+        {
+          "year": "2023",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202303/20230316/2266235713.html"
+        },
+        {
+          "year": "2022",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202203/20220315/2173084543.html"
+        }
+      ]
+    },
+    {
+      "yxmc": "中南大学",
+      "yearList": [
+        {
+          "year": "2026",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202603/20260317/2293450533.html"
+        },
+        {
+          "year": "2025",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202503/20250315/2293363138.html"
+        },
+        {
+          "year": "2024",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202403/20240318/2293271245.html"
+        },
+        {
+          "year": "2023",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202303/20230315/2266234853.html"
+        },
+        {
+          "year": "2022",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202203/20220315/2173084552.html"
+        }
+      ]
+    },
+    {
+      "yxmc": "中山大学",
+      "yearList": [
+        {
+          "year": "2026",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202603/20260316/2293451641.html"
+        },
+        {
+          "year": "2025",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202503/20250313/2293361170.html"
+        },
+        {
+          "year": "2024",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202403/20240313/2293269655.html"
+        },
+        {
+          "year": "2023",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202303/20230312/2265499679.html"
+        },
+        {
+          "year": "2022",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202203/20220314/2172774003.html"
+        }
+      ]
+    },
+    {
+      "yxmc": "华南理工大学",
+      "yearList": [
+        {
+          "year": "2026",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202603/20260316/2293451699.html"
+        },
+        {
+          "year": "2025",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202503/20250313/2293361197.html"
+        },
+        {
+          "year": "2024",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202403/20240313/2293269715.html"
+        },
+        {
+          "year": "2023",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202303/20230312/2265499685.html"
+        },
+        {
+          "year": "2022",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202203/20220314/2172774024.html"
+        }
+      ]
+    },
+    {
+      "yxmc": "四川大学",
+      "yearList": [
+        {
+          "year": "2026",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202603/20260316/2293451701.html"
+        },
+        {
+          "year": "2025",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202503/20250313/2293361176.html"
+        },
+        {
+          "year": "2024",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202403/20240315/2293265121.html"
+        },
+        {
+          "year": "2023",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202303/20230314/2266099265.html"
+        },
+        {
+          "year": "2022",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202203/20220314/2173083678.html"
+        }
+      ]
+    },
+    {
+      "yxmc": "重庆大学",
+      "yearList": [
+        {
+          "year": "2026",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202603/20260316/2293451717.html"
+        },
+        {
+          "year": "2025",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202503/20250314/2293362917.html"
+        },
+        {
+          "year": "2024",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202403/20240315/2293271641.html"
+        },
+        {
+          "year": "2023",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202303/20230316/2266757324.html"
+        },
+        {
+          "year": "2022",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202203/20220314/2172774235.html"
+        }
+      ]
+    },
+    {
+      "yxmc": "电子科技大学",
+      "yearList": [
+        {
+          "year": "2026",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202603/20260316/2293451714.html"
+        },
+        {
+          "year": "2025",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202503/20250315/2293363134.html"
+        },
+        {
+          "year": "2024",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202403/20240318/2293271755.html"
+        },
+        {
+          "year": "2023",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202303/20230316/2266235695.html"
+        },
+        {
+          "year": "2022",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202203/20220315/2173656141.html"
+        }
+      ]
+    },
+    {
+      "yxmc": "西安交通大学",
+      "yearList": [
+        {
+          "year": "2026",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202603/20260313/2293451582.html"
+        },
+        {
+          "year": "2025",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202503/20250312/2293357773.html"
+        },
+        {
+          "year": "2024",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202403/20240315/2293269852.html"
+        },
+        {
+          "year": "2023",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202303/20230313/2265890389.html"
+        },
+        {
+          "year": "2022",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202203/20220314/2172774055.html"
+        }
+      ]
+    },
+    {
+      "yxmc": "西北工业大学",
+      "yearList": [
+        {
+          "year": "2026",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202603/20260316/2293451662.html"
+        },
+        {
+          "year": "2025",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202503/20250314/2293362919.html"
+        },
+        {
+          "year": "2024",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202403/20240315/2293271661.html"
+        },
+        {
+          "year": "2023",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202303/20230314/2266180138.html"
+        },
+        {
+          "year": "2022",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202203/20220314/2173083700.html"
+        }
+      ]
+    },
+    {
+      "yxmc": "兰州大学",
+      "yearList": [
+        {
+          "year": "2026",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202603/20260317/2293450517.html"
+        },
+        {
+          "year": "2025",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202503/20250315/2293363154.html"
+        },
+        {
+          "year": "2024",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202403/20240320/2293271971.html"
+        },
+        {
+          "year": "2023",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202303/20230315/2266234789.html"
+        },
+        {
+          "year": "2022",
+          "url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202203/20220314/2172774081.html"
+        }
+      ]
+    }
+  ],
+  "count": 34
+}

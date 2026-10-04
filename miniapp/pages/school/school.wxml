@@ -1,0 +1,132 @@
+<!-- 院校详情页 -->
+<view class="page">
+  <!-- 加载态 -->
+  <view wx:if="{{loading}}" class="loading-mask">
+    <view class="loading-spinner"></view>
+  </view>
+
+  <!-- 错误态 -->
+  <view wx:elif="{{error}}" class="empty-state">
+    <text class="empty-icon">😕</text>
+    <text class="empty-text">未找到该院校信息</text>
+  </view>
+
+  <!-- 正常展示 -->
+  <view wx:else class="page-content">
+    <!-- 院校头部 -->
+    <view class="school-header">
+      <view class="header-bg"></view>
+      <view class="header-content">
+        <view class="header-top">
+          <text class="school-name">{{school.name}}</text>
+        </view>
+        <view class="school-tags-row">
+          <view wx:for="{{school.types}}" wx:key="*this" class="tag" style="{{item.style}}">{{item.label}}</view>
+          <view wx:if="{{school.tags}}" wx:for="{{school.tags}}" wx:key="*this" class="tag tag-hot">{{item}}</view>
+        </view>
+        <view class="school-info-row">
+          <text class="info-item">📍 {{school.province}} {{school.city}}</text>
+          <text class="info-item">🏛 {{school.region}}</text>
+        </view>
+        <view class="school-info-row" wx:if="{{school.department}}">
+          <text class="info-item">📋 {{school.department}}</text>
+        </view>
+      </view>
+    </view>
+
+    <!-- 简介 -->
+    <view class="card school-intro-section">
+      <text class="intro-text">{{school.intro}}</text>
+      <view class="intro-links" wx:if="{{school.website || school.yjsWebsite || school.phone}}">
+        <view class="link-item" wx:if="{{school.website}}">
+          <text class="link-label">学校官网</text>
+          <text class="link-value">🔗 {{school.website}}</text>
+        </view>
+        <view class="link-item" wx:if="{{school.yjsWebsite}}">
+          <text class="link-label">研招官网</text>
+          <text class="link-value">🔗 {{school.yjsWebsite}}</text>
+        </view>
+        <view class="link-item" wx:if="{{school.phone}}">
+          <text class="link-label">研招电话</text>
+          <text class="link-value">📞 {{school.phone}}</text>
+        </view>
+      </view>
+    </view>
+
+    <!-- 专业列表标题 -->
+    <view class="major-section-header" style="padding: 0 32rpx;">
+      <view class="section-title">
+        <view class="section-title-icon"></view>
+        <text>招生专业（{{school.majors ? school.majors.length : 0}}）</text>
+      </view>
+    </view>
+
+    <!-- 专业搜索 -->
+    <view class="major-search" wx:if="{{school.majors.length > 3}}">
+      <view class="major-search-bar">
+        <text class="ms-icon">🔍</text>
+        <input
+          class="ms-input"
+          placeholder="搜索专业名称或代码..."
+          placeholder-style="color: #94A3B8; font-size: 26rpx;"
+          value="{{majorKeyword}}"
+          bindinput="onMajorSearchInput"
+        />
+        <view class="ms-clear {{majorKeyword ? 'show' : ''}}" bindtap="onMajorSearchClear">
+          <text>✕</text>
+        </view>
+      </view>
+    </view>
+
+    <!-- 专业列表 -->
+    <view class="major-list">
+      <view wx:if="{{filteredMajors.length === 0}}" class="empty-state">
+        <text class="empty-text">未找到匹配的专业</text>
+      </view>
+      <view
+        wx:for="{{filteredMajors}}"
+        wx:key="id"
+        class="major-card fade-in"
+        data-id="{{item.id}}"
+        bindtap="onMajorTap"
+      >
+        <view class="major-card-top">
+          <view class="major-info">
+            <text class="major-name">{{item.name}}</text>
+            <text class="major-code">{{item.code}}</text>
+          </view>
+          <view class="major-degree">
+            <text class="degree-badge {{item.degreeType === '专业学位' ? 'professional' : 'academic'}}">{{item.degreeType}}</text>
+          </view>
+          <text class="major-arrow">›</text>
+        </view>
+        <view class="major-tags-row">
+          <text class="major-tag-label">{{item.category}}</text>
+          <text class="major-tag-label" wx:if="{{item.studyMode}}">{{item.studyMode}}</text>
+          <text class="major-tag-label" wx:if="{{item.direction && item.direction.length < 20}}">{{item.direction}}</text>
+        </view>
+        <view class="major-quick-info">
+          <view class="quick-item">
+            <text class="quick-label">复试线</text>
+            <text class="quick-value" wx:if="{{item.admissionData && item.admissionData[0]}}">{{item.admissionData[0].reexamLine}}分</text>
+            <text class="quick-value empty" wx:else>-</text>
+          </view>
+          <view class="quick-item">
+            <text class="quick-label">复录比</text>
+            <text class="quick-value" wx:if="{{item.reexam && item.reexam.ratio}}">{{item.reexam.ratio}}</text>
+            <text class="quick-value empty" wx:else>-</text>
+          </view>
+          <view class="quick-item">
+            <text class="quick-label">学制</text>
+            <text class="quick-value">{{item.duration || '-'}}</text>
+          </view>
+          <view class="quick-item">
+            <text class="quick-label">学费</text>
+            <text class="quick-value" wx:if="{{item.tuition}}">{{item.tuition}}</text>
+            <text class="quick-value empty" wx:else>-</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

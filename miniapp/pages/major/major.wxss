@@ -1,0 +1,579 @@
+/* ========== 专业详情样式 ========== */
+
+.page {
+  min-height: 100vh;
+  background: #F8FAFC;
+}
+
+.page-content {
+  padding-bottom: 40rpx;
+}
+
+/* ===== 专业头部 ===== */
+.major-header {
+  padding: 0 32rpx;
+  padding-top: 0;
+}
+
+.major-header-inner {
+  background: linear-gradient(135deg, #1E40AF, #3B82F6);
+  border-radius: 0 0 40rpx 40rpx;
+  padding: 32rpx;
+  margin: 0 -32rpx;
+}
+
+.major-breadcrumb {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20rpx;
+}
+
+.breadcrumb-link {
+  font-size: 24rpx;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.breadcrumb-sep {
+  margin: 0 10rpx;
+  font-size: 24rpx;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.breadcrumb-current {
+  font-size: 24rpx;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.major-title-row {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 16rpx;
+}
+
+.major-name {
+  font-size: 44rpx;
+  font-weight: 800;
+  color: #FFFFFF;
+  margin-right: 16rpx;
+}
+
+.major-code {
+  font-size: 26rpx;
+  color: rgba(255, 255, 255, 0.6);
+  font-family: monospace;
+}
+
+.major-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10rpx;
+  margin-bottom: 12rpx;
+}
+
+.minor-badge {
+  display: inline-block;
+  padding: 4rpx 16rpx;
+  background: rgba(255, 255, 255, 0.2);
+  color: rgba(255, 255, 255, 0.9);
+  border-radius: 8rpx;
+  font-size: 22rpx;
+}
+
+.major-direction {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.dir-label {
+  font-size: 24rpx;
+  color: rgba(255, 255, 255, 0.7);
+  margin-right: 8rpx;
+}
+
+.dir-text {
+  font-size: 24rpx;
+  color: rgba(255, 255, 255, 0.9);
+  flex: 1;
+}
+
+/* ===== 快速导航标签 ===== */
+.nav-tabs {
+  display: flex;
+  gap: 12rpx;
+  padding: 24rpx 32rpx;
+  overflow-x: auto;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.nav-tab {
+  display: inline-flex;
+  align-items: center;
+  padding: 12rpx 24rpx;
+  background: #FFFFFF;
+  border-radius: 16rpx;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+  font-size: 24rpx;
+  color: #475569;
+  flex-shrink: 0;
+  transition: all 0.25s ease;
+}
+
+.nav-tab.active {
+  background: #2563EB;
+  color: #FFFFFF;
+  box-shadow: 0 4rpx 12rpx rgba(37, 99, 235, 0.3);
+}
+
+.nav-tab:active {
+  transform: scale(0.95);
+}
+
+/* ===== 卡片分区 ===== */
+.section-card {
+  margin-bottom: 24rpx;
+}
+
+.section-title {
+  font-size: 32rpx;
+  font-weight: 700;
+  color: #0F172A;
+  margin-bottom: 24rpx;
+  display: flex;
+  align-items: center;
+}
+
+.section-title-icon {
+  width: 6rpx;
+  height: 32rpx;
+  background: #2563EB;
+  border-radius: 3rpx;
+  margin-right: 16rpx;
+  flex-shrink: 0;
+}
+
+.empty-minor {
+  padding: 32rpx 0;
+  text-align: center;
+}
+
+.empty-minor .empty-text {
+  font-size: 26rpx;
+  color: #94A3B8;
+}
+
+/* ===== 初试科目表格 ===== */
+.exam-total {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20rpx;
+  padding: 12rpx 20rpx;
+  background: #EFF6FF;
+  border-radius: 12rpx;
+}
+
+.total-label {
+  font-size: 26rpx;
+  color: #475569;
+}
+
+.total-value {
+  font-size: 28rpx;
+  font-weight: 700;
+  color: #2563EB;
+}
+
+.exam-subjects {
+  border: 2rpx solid #E2E8F0;
+  border-radius: 12rpx;
+  overflow: hidden;
+}
+
+.subject-header {
+  display: flex;
+  background: #F8FAFC;
+  padding: 16rpx 20rpx;
+  font-size: 24rpx;
+  font-weight: 600;
+  color: #475569;
+  border-bottom: 2rpx solid #E2E8F0;
+}
+
+.subject-row {
+  display: flex;
+  padding: 18rpx 20rpx;
+  font-size: 26rpx;
+  border-bottom: 1rpx solid #E2E8F0;
+  align-items: center;
+}
+
+.subject-row:last-child {
+  border-bottom: none;
+}
+
+.sub-code {
+  width: 120rpx;
+  font-family: monospace;
+  color: #2563EB;
+  font-weight: 500;
+  flex-shrink: 0;
+}
+
+.sub-name {
+  flex: 1;
+  color: #0F172A;
+}
+
+.sub-type {
+  width: 120rpx;
+  display: flex;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.sub-score {
+  width: 80rpx;
+  text-align: right;
+  color: #0F172A;
+  font-weight: 500;
+  flex-shrink: 0;
+}
+
+.type-badge {
+  display: inline-block;
+  padding: 2rpx 12rpx;
+  border-radius: 6rpx;
+  font-size: 20rpx;
+  font-weight: 500;
+}
+
+.type-badge.unified {
+  background: #EFF6FF;
+  color: #2563EB;
+}
+
+.type-badge.self {
+  background: #FFF7ED;
+  color: #D97706;
+}
+
+/* ===== 复试信息 ===== */
+.reexam-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20rpx;
+}
+
+.info-grid {
+  display: flex;
+  gap: 16rpx;
+}
+
+.info-grid-item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20rpx 16rpx;
+  background: #F8FAFC;
+  border-radius: 12rpx;
+}
+
+.grid-label {
+  font-size: 22rpx;
+  color: #94A3B8;
+  margin-bottom: 8rpx;
+}
+
+.grid-value {
+  font-size: 28rpx;
+  font-weight: 600;
+  color: #0F172A;
+}
+
+.grid-value.highlight {
+  color: #2563EB;
+  font-size: 32rpx;
+  font-weight: 700;
+}
+
+.reexam-subjects {
+  padding-top: 8rpx;
+}
+
+.subjects-label {
+  display: block;
+  font-size: 26rpx;
+  color: #475569;
+  margin-bottom: 12rpx;
+}
+
+.subjects-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12rpx;
+}
+
+.subject-chip {
+  display: inline-block;
+  padding: 8rpx 20rpx;
+  background: #EFF6FF;
+  color: #2563EB;
+  border-radius: 12rpx;
+  font-size: 24rpx;
+  font-weight: 500;
+}
+
+.subject-chip.warn {
+  background: #FFF7ED;
+  color: #D97706;
+}
+
+.additional-exam {
+  margin-top: 20rpx;
+  padding-top: 8rpx;
+}
+
+.add-exam-title {
+  display: block;
+  font-size: 26rpx;
+  font-weight: 600;
+  color: #D97706;
+  margin-bottom: 12rpx;
+}
+
+.add-note {
+  display: block;
+  margin-top: 12rpx;
+  font-size: 24rpx;
+  color: #475569;
+}
+
+/* ===== 参考书目 ===== */
+.reference-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20rpx;
+}
+
+.reference-item {
+  padding: 24rpx;
+  background: #F8FAFC;
+  border-radius: 12rpx;
+  border-left: 6rpx solid #2563EB;
+}
+
+.ref-top {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12rpx;
+}
+
+.ref-name {
+  font-size: 28rpx;
+  font-weight: 600;
+  color: #0F172A;
+  flex: 1;
+}
+
+.ref-badges {
+  display: flex;
+  gap: 8rpx;
+  flex-shrink: 0;
+}
+
+.ref-badge {
+  display: inline-block;
+  padding: 2rpx 12rpx;
+  border-radius: 6rpx;
+  font-size: 20rpx;
+  font-weight: 500;
+}
+
+.ref-badge.required {
+  background: #FEF2F2;
+  color: #DC2626;
+}
+
+.ref-badge.type {
+  background: #EFF6FF;
+  color: #2563EB;
+}
+
+.ref-details {
+  display: flex;
+  flex-direction: column;
+  gap: 6rpx;
+}
+
+.ref-detail {
+  font-size: 24rpx;
+  color: #475569;
+}
+
+/* ===== 历年数据表格 ===== */
+.data-table-wrapper {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.table-scroll {
+  min-width: 100%;
+}
+
+.data-table {
+  min-width: 600rpx;
+  border: 2rpx solid #E2E8F0;
+  border-radius: 12rpx;
+  overflow: hidden;
+}
+
+.table-row {
+  display: flex;
+  border-bottom: 1rpx solid #E2E8F0;
+}
+
+.table-row:last-child {
+  border-bottom: none;
+}
+
+.table-row.header {
+  background: #EFF6FF;
+  font-weight: 600;
+  color: #1D4ED8;
+  font-size: 22rpx;
+}
+
+.table-cell {
+  padding: 16rpx 8rpx;
+  text-align: center;
+  font-size: 24rpx;
+  color: #0F172A;
+}
+
+.col-year { width: 80rpx; }
+.col-line { width: 80rpx; }
+.col-min { width: 80rpx; }
+.col-max { width: 80rpx; }
+.col-avg { width: 80rpx; }
+.col-ratio { width: 110rpx; }
+.col-apply { width: 110rpx; }
+
+.table-cell.highlight {
+  color: #2563EB;
+  font-weight: 700;
+}
+
+.data-note {
+  margin-top: 16rpx;
+  padding: 16rpx;
+  background: #FFF7ED;
+  border-radius: 12rpx;
+  font-size: 24rpx;
+  color: #D97706;
+}
+
+/* ===== 其他信息 ===== */
+.other-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 16rpx;
+}
+
+.other-item {
+  display: flex;
+  align-items: flex-start;
+  padding: 20rpx;
+  background: #F8FAFC;
+  border-radius: 12rpx;
+}
+
+.other-icon {
+  font-size: 36rpx;
+  margin-right: 20rpx;
+  flex-shrink: 0;
+  width: 44rpx;
+  text-align: center;
+}
+
+.other-body {
+  flex: 1;
+}
+
+.other-label {
+  display: block;
+  font-size: 22rpx;
+  color: #94A3B8;
+  margin-bottom: 4rpx;
+}
+
+.other-value {
+  display: block;
+  font-size: 28rpx;
+  color: #0F172A;
+  font-weight: 500;
+}
+
+.other-value.warn-text {
+  color: #DC2626;
+}
+
+/* ===== 联系方式 ===== */
+.contact-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12rpx;
+}
+
+.contact-item {
+  padding: 12rpx 0;
+  font-size: 26rpx;
+  color: #475569;
+  border-bottom: 1rpx solid #E2E8F0;
+}
+
+.contact-item:last-child {
+  border-bottom: none;
+}
+
+/* ===== 注意事项 ===== */
+.notes-card {
+  background: #FFFBEB;
+  border: 2rpx solid #FDE68A;
+}
+
+.notes-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12rpx;
+}
+
+.note-item {
+  display: flex;
+  align-items: flex-start;
+}
+
+.note-bullet {
+  font-size: 28rpx;
+  color: #D97706;
+  margin-right: 12rpx;
+  flex-shrink: 0;
+}
+
+.note-text {
+  font-size: 26rpx;
+  color: #92400E;
+  line-height: 1.5;
+}
+
+/* ===== 底部留白 ===== */
+.bottom-spacer {
+  height: 60rpx;
+}
+
+/* ===== 响应式微调 ===== */
+@media (min-width: 400px) {
+  .hot-list {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

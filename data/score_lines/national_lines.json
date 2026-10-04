@@ -1,0 +1,1497 @@
+{
+  "source": "https://yz.chsi.com.cn/kyzx/zt/lnfsx2026.shtml",
+  "fetchedAt": "2026-07-31T06:01:44.432378+00:00",
+  "description": "研招网近五年考研国家线及趋势图数据（2022-2026）",
+  "years": [
+    {
+      "year": "2026",
+      "url": "https://yz.chsi.com.cn/kyzx/kydt/202602/20260228/2293449091.html"
+    },
+    {
+      "year": "2025",
+      "url": "https://yz.chsi.com.cn/kyzx/kydt/202502/20250224/2293352961.html"
+    },
+    {
+      "year": "2024",
+      "url": "https://yz.chsi.com.cn/kyzx/kydt/202403/20240312/2293269479.html"
+    },
+    {
+      "year": "2023",
+      "url": "https://yz.chsi.com.cn/kyzx/kydt/202303/20230310/2265487748.html"
+    },
+    {
+      "year": "2022",
+      "url": "https://yz.chsi.com.cn/kyzx/kydt/202203/20220311/2172338979.html"
+    }
+  ],
+  "unified_lines": [
+    {
+      "name": "哲学",
+      "title": "哲学总分国家线趋势图",
+      "gjx": {
+        "typea": [
+          314,
+          323,
+          333,
+          321,
+          326
+        ],
+        "typeb": [
+          304,
+          313,
+          323,
+          311,
+          316
+        ]
+      },
+      "dkfs": "哲学单科分数",
+      "dkx": [
+        {
+          "year": "2026",
+          "typeaone": "41",
+          "typeatwo": "62",
+          "typebone": "38",
+          "typebtwo": "57"
+        },
+        {
+          "year": "2025",
+          "typeaone": "39",
+          "typeatwo": "59",
+          "typebone": "36",
+          "typebtwo": "54"
+        },
+        {
+          "year": "2024",
+          "typeaone": "47",
+          "typeatwo": "71",
+          "typebone": "44",
+          "typebtwo": "66"
+        },
+        {
+          "year": "2023",
+          "typeaone": "45",
+          "typeatwo": "68",
+          "typebone": "42",
+          "typebtwo": "63"
+        },
+        {
+          "year": "2022",
+          "typeaone": "45",
+          "typeatwo": "68",
+          "typebone": "42",
+          "typebtwo": "63"
+        }
+      ]
+    },
+    {
+      "name": "经济学",
+      "title": "经济学总分国家线趋势图",
+      "gjx": {
+        "typea": [
+          360,
+          346,
+          338,
+          323,
+          324
+        ],
+        "typeb": [
+          350,
+          336,
+          328,
+          313,
+          314
+        ]
+      },
+      "dkfs": "经济学单科分数",
+      "dkx": [
+        {
+          "year": "2026",
+          "typeaone": "40",
+          "typeatwo": "60",
+          "typebone": "37",
+          "typebtwo": "56"
+        },
+        {
+          "year": "2025",
+          "typeaone": "40",
+          "typeatwo": "60",
+          "typebone": "37",
+          "typebtwo": "56"
+        },
+        {
+          "year": "2024",
+          "typeaone": "47",
+          "typeatwo": "71",
+          "typebone": "44",
+          "typebtwo": "66"
+        },
+        {
+          "year": "2023",
+          "typeaone": "48",
+          "typeatwo": "72",
+          "typebone": "45",
+          "typebtwo": "68"
+        },
+        {
+          "year": "2022",
+          "typeaone": "52",
+          "typeatwo": "78",
+          "typebone": "49",
+          "typebtwo": "74"
+        }
+      ]
+    },
+    {
+      "name": "法学",
+      "title": "法学总分国家线趋势图",
+      "gjx": {
+        "typea": [
+          335,
+          326,
+          331,
+          323,
+          321
+        ],
+        "typeb": [
+          325,
+          316,
+          321,
+          313,
+          311
+        ]
+      },
+      "dkfs": "法学单科分数",
+      "dkx": [
+        {
+          "year": "2026",
+          "typeaone": "40",
+          "typeatwo": "60",
+          "typebone": "37",
+          "typebtwo": "56"
+        },
+        {
+          "year": "2025",
+          "typeaone": "40",
+          "typeatwo": "60",
+          "typebone": "37",
+          "typebtwo": "56"
+        },
+        {
+          "year": "2024",
+          "typeaone": "47",
+          "typeatwo": "71",
+          "typebone": "44",
+          "typebtwo": "66"
+        },
+        {
+          "year": "2023",
+          "typeaone": "45",
+          "typeatwo": "68",
+          "typebone": "42",
+          "typebtwo": "63"
+        },
+        {
+          "year": "2022",
+          "typeaone": "46",
+          "typeatwo": "69",
+          "typebone": "43",
+          "typebtwo": "65"
+        }
+      ]
+    },
+    {
+      "name": "教育学",
+      "title": "教育学（部分学科专业）总分国家线趋势图",
+      "gjx": {
+        "typea": [
+          351,
+          350,
+          350,
+          341,
+          347
+        ],
+        "typeb": [
+          341,
+          340,
+          340,
+          331,
+          337
+        ]
+      },
+      "dkfs": "教育学（部分学科专业）单科分数",
+      "dkx": [
+        {
+          "year": "2026",
+          "typeaone": "48",
+          "typeatwo": "144",
+          "typebone": "45",
+          "typebtwo": "135"
+        },
+        {
+          "year": "2025",
+          "typeaone": "45",
+          "typeatwo": "135",
+          "typebone": "42",
+          "typebtwo": "126"
+        },
+        {
+          "year": "2024",
+          "typeaone": "51",
+          "typeatwo": "153",
+          "typebone": "48",
+          "typebtwo": "144"
+        },
+        {
+          "year": "2023",
+          "typeaone": "51",
+          "typeatwo": "153",
+          "typebone": "48",
+          "typebtwo": "144"
+        },
+        {
+          "year": "2022",
+          "typeaone": "51",
+          "typeatwo": "153",
+          "typebone": "48",
+          "typebtwo": "144"
+        }
+      ]
+    },
+    {
+      "name": "文学",
+      "title": "文学总分国家线趋势图",
+      "gjx": {
+        "typea": [
+          367,
+          363,
+          365,
+          351,
+          354
+        ],
+        "typeb": [
+          357,
+          353,
+          355,
+          341,
+          344
+        ]
+      },
+      "dkfs": "文学单科分数",
+      "dkx": [
+        {
+          "year": "2026",
+          "typeaone": "48",
+          "typeatwo": "72",
+          "typebone": "45",
+          "typebtwo": "68"
+        },
+        {
+          "year": "2025",
+          "typeaone": "47",
+          "typeatwo": "71",
+          "typebone": "44",
+          "typebtwo": "66"
+        },
+        {
+          "year": "2024",
+          "typeaone": "55",
+          "typeatwo": "83",
+          "typebone": "52",
+          "typebtwo": "78"
+        },
+        {
+          "year": "2023",
+          "typeaone": "54",
+          "typeatwo": "81",
+          "typebone": "51",
+          "typebtwo": "77"
+        },
+        {
+          "year": "2022",
+          "typeaone": "56",
+          "typeatwo": "84",
+          "typebone": "53",
+          "typebtwo": "80"
+        }
+      ]
+    },
+    {
+      "name": "历史学",
+      "title": "历史学总分国家线趋势图",
+      "gjx": {
+        "typea": [
+          336,
+          336,
+          345,
+          336,
+          341
+        ],
+        "typeb": [
+          326,
+          326,
+          335,
+          326,
+          331
+        ]
+      },
+      "dkfs": "历史学单科分数",
+      "dkx": [
+        {
+          "year": "2026",
+          "typeaone": "45",
+          "typeatwo": "135",
+          "typebone": "42",
+          "typebtwo": "126"
+        },
+        {
+          "year": "2025",
+          "typeaone": "43",
+          "typeatwo": "129",
+          "typebone": "40",
+          "typebtwo": "120"
+        },
+        {
+          "year": "2024",
+          "typeaone": "49",
+          "typeatwo": "147",
+          "typebone": "46",
+          "typebtwo": "138"
+        },
+        {
+          "year": "2023",
+          "typeaone": "46",
+          "typeatwo": "138",
+          "typebone": "43",
+          "typebtwo": "129"
+        },
+        {
+          "year": "2022",
+          "typeaone": "46",
+          "typeatwo": "138",
+          "typebone": "43",
+          "typebtwo": "129"
+        }
+      ]
+    },
+    {
+      "name": "理学",
+      "title": "理学总分国家线趋势图",
+      "gjx": {
+        "typea": [
+          290,
+          279,
+          288,
+          274,
+          275
+        ],
+        "typeb": [
+          280,
+          269,
+          278,
+          264,
+          265
+        ]
+      },
+      "dkfs": "理学单科分数",
+      "dkx": [
+        {
+          "year": "2026",
+          "typeaone": "35",
+          "typeatwo": "53",
+          "typebone": "32",
+          "typebtwo": "48"
+        },
+        {
+          "year": "2025",
+          "typeaone": "34",
+          "typeatwo": "51",
+          "typebone": "31",
+          "typebtwo": "47"
+        },
+        {
+          "year": "2024",
+          "typeaone": "41",
+          "typeatwo": "62",
+          "typebone": "38",
+          "typebtwo": "57"
+        },
+        {
+          "year": "2023",
+          "typeaone": "38",
+          "typeatwo": "57",
+          "typebone": "35",
+          "typebtwo": "53"
+        },
+        {
+          "year": "2022",
+          "typeaone": "39",
+          "typeatwo": "59",
+          "typebone": "36",
+          "typebtwo": "54"
+        }
+      ]
+    },
+    {
+      "name": "工学",
+      "title": "工学（部分学科专业）总分国家线趋势图",
+      "gjx": {
+        "typea": [
+          273,
+          273,
+          273,
+          260,
+          264
+        ],
+        "typeb": [
+          263,
+          263,
+          263,
+          250,
+          254
+        ]
+      },
+      "dkfs": "工学（部分学科专业）单科分数",
+      "dkx": [
+        {
+          "year": "2026",
+          "typeaone": "35",
+          "typeatwo": "53",
+          "typebone": "32",
+          "typebtwo": "48"
+        },
+        {
+          "year": "2025",
+          "typeaone": "34",
+          "typeatwo": "51",
+          "typebone": "31",
+          "typebtwo": "47"
+        },
+        {
+          "year": "2024",
+          "typeaone": "37",
+          "typeatwo": "56",
+          "typebone": "34",
+          "typebtwo": "51"
+        },
+        {
+          "year": "2023",
+          "typeaone": "38",
+          "typeatwo": "57",
+          "typebone": "35",
+          "typebtwo": "53"
+        },
+        {
+          "year": "2022",
+          "typeaone": "38",
+          "typeatwo": "57",
+          "typebone": "35",
+          "typebtwo": "53"
+        }
+      ]
+    },
+    {
+      "name": "农学",
+      "title": "农学总分国家线趋势图",
+      "gjx": {
+        "typea": [
+          252,
+          251,
+          251,
+          245,
+          240
+        ],
+        "typeb": [
+          242,
+          241,
+          241,
+          235,
+          230
+        ]
+      },
+      "dkfs": "农学单科分数",
+      "dkx": [
+        {
+          "year": "2026",
+          "typeaone": "33",
+          "typeatwo": "50",
+          "typebone": "30",
+          "typebtwo": "45"
+        },
+        {
+          "year": "2025",
+          "typeaone": "33",
+          "typeatwo": "50",
+          "typebone": "30",
+          "typebtwo": "45"
+        },
+        {
+          "year": "2024",
+          "typeaone": "33",
+          "typeatwo": "50",
+          "typebone": "30",
+          "typebtwo": "45"
+        },
+        {
+          "year": "2023",
+          "typeaone": "33",
+          "typeatwo": "50",
+          "typebone": "30",
+          "typebtwo": "45"
+        },
+        {
+          "year": "2022",
+          "typeaone": "33",
+          "typeatwo": "50",
+          "typebone": "30",
+          "typebtwo": "45"
+        }
+      ]
+    },
+    {
+      "name": "医学",
+      "title": "医学（2022年-2024年为部分学科专业）总分国家线趋势图",
+      "gjx": {
+        "typea": [
+          309,
+          296,
+          304,
+          293,
+          294
+        ],
+        "typeb": [
+          299,
+          286,
+          294,
+          283,
+          284
+        ]
+      },
+      "dkfs": "医学（2022年-2024年为部分学科专业）单科分数",
+      "dkx": [
+        {
+          "year": "2026",
+          "typeaone": "36",
+          "typeatwo": "108",
+          "typebone": "33",
+          "typebtwo": "99"
+        },
+        {
+          "year": "2025",
+          "typeaone": "36",
+          "typeatwo": "108",
+          "typebone": "33",
+          "typebtwo": "99"
+        },
+        {
+          "year": "2024",
+          "typeaone": "42",
+          "typeatwo": "126",
+          "typebone": "39",
+          "typebtwo": "117"
+        },
+        {
+          "year": "2023",
+          "typeaone": "39",
+          "typeatwo": "117",
+          "typebone": "36",
+          "typebtwo": "108"
+        },
+        {
+          "year": "2022",
+          "typeaone": "43",
+          "typeatwo": "129",
+          "typebone": "40",
+          "typebtwo": "120"
+        }
+      ]
+    },
+    {
+      "name": "军事学",
+      "title": "军事学总分国家线趋势图",
+      "gjx": {
+        "typea": [
+          265,
+          260,
+          260,
+          260,
+          260
+        ],
+        "typeb": [
+          255,
+          250,
+          250,
+          250,
+          250
+        ]
+      },
+      "dkfs": "军事学单科分数",
+      "dkx": [
+        {
+          "year": "2026",
+          "typeaone": "34",
+          "typeatwo": "51",
+          "typebone": "31",
+          "typebtwo": "47"
+        },
+        {
+          "year": "2025",
+          "typeaone": "34",
+          "typeatwo": "51",
+          "typebone": "31",
+          "typebtwo": "47"
+        },
+        {
+          "year": "2024",
+          "typeaone": "35",
+          "typeatwo": "53",
+          "typebone": "32",
+          "typebtwo": "48"
+        },
+        {
+          "year": "2023",
+          "typeaone": "35",
+          "typeatwo": "53",
+          "typebone": "32",
+          "typebtwo": "48"
+        },
+        {
+          "year": "2022",
+          "typeaone": "37",
+          "typeatwo": "56",
+          "typebone": "34",
+          "typebtwo": "51"
+        }
+      ]
+    },
+    {
+      "name": "管理学",
+      "title": "管理学（部分学科专业）总分国家线趋势图",
+      "gjx": {
+        "typea": [
+          353,
+          340,
+          347,
+          333,
+          332
+        ],
+        "typeb": [
+          343,
+          330,
+          337,
+          323,
+          322
+        ]
+      },
+      "dkfs": "管理学（部分学科专业）单科分数",
+      "dkx": [
+        {
+          "year": "2026",
+          "typeaone": "41",
+          "typeatwo": "62",
+          "typebone": "38",
+          "typebtwo": "57"
+        },
+        {
+          "year": "2025",
+          "typeaone": "41",
+          "typeatwo": "62",
+          "typebone": "38",
+          "typebtwo": "57"
+        },
+        {
+          "year": "2024",
+          "typeaone": "49",
+          "typeatwo": "74",
+          "typebone": "46",
+          "typebtwo": "69"
+        },
+        {
+          "year": "2023",
+          "typeaone": "47",
+          "typeatwo": "71",
+          "typebone": "44",
+          "typebtwo": "66"
+        },
+        {
+          "year": "2022",
+          "typeaone": "51",
+          "typeatwo": "77",
+          "typebone": "48",
+          "typebtwo": "72"
+        }
+      ]
+    },
+    {
+      "name": "艺术学",
+      "title": "艺术学总分国家线趋势图",
+      "gjx": {
+        "typea": [
+          361,
+          362,
+          362,
+          351,
+          354
+        ],
+        "typeb": [
+          351,
+          352,
+          352,
+          341,
+          344
+        ]
+      },
+      "dkfs": "艺术学单科分数",
+      "dkx": [
+        {
+          "year": "2026",
+          "typeaone": "38",
+          "typeatwo": "57",
+          "typebone": "35",
+          "typebtwo": "53"
+        },
+        {
+          "year": "2025",
+          "typeaone": "37",
+          "typeatwo": "56",
+          "typebone": "34",
+          "typebtwo": "51"
+        },
+        {
+          "year": "2024",
+          "typeaone": "40",
+          "typeatwo": "60",
+          "typebone": "37",
+          "typebtwo": "56"
+        },
+        {
+          "year": "2023",
+          "typeaone": "40",
+          "typeatwo": "60",
+          "typebone": "37",
+          "typebtwo": "56"
+        },
+        {
+          "year": "2022",
+          "typeaone": "40",
+          "typeatwo": "60",
+          "typebone": "37",
+          "typebtwo": "56"
+        }
+      ]
+    },
+    {
+      "name": "交叉学科",
+      "title": "交叉学科总分国家线趋势图",
+      "gjx": {
+        "typea": [
+          265,
+          275,
+          266,
+          266
+        ],
+        "typeb": [
+          255,
+          265,
+          256,
+          256
+        ]
+      },
+      "dkfs": "交叉学科单科分数",
+      "dkx": [
+        {
+          "year": "2026",
+          "typeaone": "35",
+          "typeatwo": "53",
+          "typebone": "32",
+          "typebtwo": "48"
+        },
+        {
+          "year": "2025",
+          "typeaone": "34",
+          "typeatwo": "51",
+          "typebone": "31",
+          "typebtwo": "47"
+        },
+        {
+          "year": "2024",
+          "typeaone": "39",
+          "typeatwo": "59",
+          "typebone": "36",
+          "typebtwo": "54"
+        },
+        {
+          "year": "2023",
+          "typeaone": "36",
+          "typeatwo": "54",
+          "typebone": "33",
+          "typebtwo": "50"
+        }
+      ]
+    }
+  ],
+  "separate_lines": [
+    {
+      "name": "体育学、体育",
+      "title": "体育学、体育总分国家线趋势图",
+      "gjx": {
+        "typea": [
+          296,
+          305,
+          313,
+          304,
+          310
+        ],
+        "typeb": [
+          286,
+          295,
+          303,
+          294,
+          300
+        ]
+      },
+      "dkfs": "体育学、体育单科分数",
+      "dkx": [
+        {
+          "year": "2026",
+          "typeaone": "38",
+          "typeatwo": "114",
+          "typebone": "35",
+          "typebtwo": "105"
+        },
+        {
+          "year": "2025",
+          "typeaone": "36",
+          "typeatwo": "108",
+          "typebone": "33",
+          "typebtwo": "99"
+        },
+        {
+          "year": "2024",
+          "typeaone": "41",
+          "typeatwo": "123",
+          "typebone": "38",
+          "typebtwo": "114"
+        },
+        {
+          "year": "2023",
+          "typeaone": "39",
+          "typeatwo": "117",
+          "typebone": "36",
+          "typebtwo": "108"
+        },
+        {
+          "year": "2022",
+          "typeaone": "37",
+          "typeatwo": "111",
+          "typebone": "34",
+          "typebtwo": "102"
+        }
+      ]
+    },
+    {
+      "name": "教育、国际中文教育（原汉语国际教育）",
+      "title": "教育、国际中文教育（原汉语国际教育）总分国家线趋势图",
+      "gjx": {
+        "typea": [
+          351,
+          350,
+          350,
+          341,
+          347
+        ],
+        "typeb": [
+          341,
+          340,
+          340,
+          331,
+          337
+        ]
+      },
+      "dkfs": "教育、国际中文教育（原汉语国际教育）单科分数",
+      "dkx": [
+        {
+          "year": "2026",
+          "typeaone": "48",
+          "typeatwo": "72",
+          "typebone": "45",
+          "typebtwo": "68"
+        },
+        {
+          "year": "2025",
+          "typeaone": "45",
+          "typeatwo": "68",
+          "typebone": "42",
+          "typebtwo": "63"
+        },
+        {
+          "year": "2024",
+          "typeaone": "51",
+          "typeatwo": "77",
+          "typebone": "48",
+          "typebtwo": "72"
+        },
+        {
+          "year": "2023",
+          "typeaone": "51",
+          "typeatwo": "77",
+          "typebone": "48",
+          "typebtwo": "72"
+        },
+        {
+          "year": "2022",
+          "typeaone": "51",
+          "typeatwo": "77",
+          "typebone": "48",
+          "typebtwo": "72"
+        }
+      ]
+    },
+    {
+      "name": "工学照顾专业",
+      "title": "工学照顾专业总分国家线趋势图",
+      "gjx": {
+        "typea": [
+          260,
+          260,
+          260,
+          251,
+          251
+        ],
+        "typeb": [
+          250,
+          250,
+          250,
+          241,
+          241
+        ]
+      },
+      "dkfs": "工学照顾专业单科分数",
+      "dkx": [
+        {
+          "year": "2026",
+          "typeaone": "33",
+          "typeatwo": "50",
+          "typebone": "30",
+          "typebtwo": "45"
+        },
+        {
+          "year": "2025",
+          "typeaone": "33",
+          "typeatwo": "50",
+          "typebone": "30",
+          "typebtwo": "45"
+        },
+        {
+          "year": "2024",
+          "typeaone": "35",
+          "typeatwo": "53",
+          "typebone": "32",
+          "typebtwo": "48"
+        },
+        {
+          "year": "2023",
+          "typeaone": "35",
+          "typeatwo": "53",
+          "typebone": "32",
+          "typebtwo": "48"
+        },
+        {
+          "year": "2022",
+          "typeaone": "35",
+          "typeatwo": "53",
+          "typebone": "32",
+          "typebtwo": "48"
+        }
+      ]
+    },
+    {
+      "name": "中医学、中西医结合、中医",
+      "title": "中医学、中西医结合、中医总分国家线趋势图",
+      "gjx": {
+        "typea": [
+          306,
+          295,
+          303
+        ],
+        "typeb": [
+          296,
+          285,
+          293
+        ]
+      },
+      "dkfs": "中医学、中西医结合、中医单科分数",
+      "dkx": [
+        {
+          "year": "2024",
+          "typeaone": "42",
+          "typeatwo": "126",
+          "typebone": "39",
+          "typebtwo": "117"
+        },
+        {
+          "year": "2023",
+          "typeaone": "39",
+          "typeatwo": "117",
+          "typebone": "36",
+          "typebtwo": "108"
+        },
+        {
+          "year": "2022",
+          "typeaone": "41",
+          "typeatwo": "123",
+          "typebone": "38",
+          "typebtwo": "114"
+        }
+      ]
+    },
+    {
+      "name": "工商管理",
+      "title": "工商管理总分国家线趋势图",
+      "gjx": {
+        "typea": [
+          170,
+          167,
+          162,
+          151,
+          146
+        ],
+        "typeb": [
+          160,
+          157,
+          152,
+          141,
+          136
+        ]
+      },
+      "dkfs": "工商管理单科分数",
+      "dkx": [
+        {
+          "year": "2026",
+          "typeaone": "35",
+          "typeatwo": "70",
+          "typebone": "30",
+          "typebtwo": "60"
+        },
+        {
+          "year": "2025",
+          "typeaone": "35",
+          "typeatwo": "70",
+          "typebone": "30",
+          "typebtwo": "60"
+        },
+        {
+          "year": "2024",
+          "typeaone": "39",
+          "typeatwo": "78",
+          "typebone": "34",
+          "typebtwo": "68"
+        },
+        {
+          "year": "2023",
+          "typeaone": "41",
+          "typeatwo": "82",
+          "typebone": "36",
+          "typebtwo": "72"
+        },
+        {
+          "year": "2022",
+          "typeaone": "42",
+          "typeatwo": "84",
+          "typebone": "37",
+          "typebtwo": "74"
+        }
+      ]
+    },
+    {
+      "name": "公共管理",
+      "title": "公共管理总分国家线趋势图",
+      "gjx": {
+        "typea": [
+          178,
+          175,
+          173,
+          164,
+          168
+        ],
+        "typeb": [
+          168,
+          165,
+          163,
+          154,
+          158
+        ]
+      },
+      "dkfs": "公共管理单科分数",
+      "dkx": [
+        {
+          "year": "2026",
+          "typeaone": "39",
+          "typeatwo": "78",
+          "typebone": "34",
+          "typebtwo": "68"
+        },
+        {
+          "year": "2025",
+          "typeaone": "38",
+          "typeatwo": "76",
+          "typebone": "33",
+          "typebtwo": "66"
+        },
+        {
+          "year": "2024",
+          "typeaone": "43",
+          "typeatwo": "86",
+          "typebone": "38",
+          "typebtwo": "76"
+        },
+        {
+          "year": "2023",
+          "typeaone": "44",
+          "typeatwo": "88",
+          "typebone": "39",
+          "typebtwo": "78"
+        },
+        {
+          "year": "2022",
+          "typeaone": "45",
+          "typeatwo": "90",
+          "typebone": "40",
+          "typebtwo": "80"
+        }
+      ]
+    },
+    {
+      "name": "会计",
+      "title": "会计总分国家线趋势图",
+      "gjx": {
+        "typea": [
+          193,
+          197,
+          201,
+          194,
+          199
+        ],
+        "typeb": [
+          183,
+          187,
+          191,
+          184,
+          189
+        ]
+      },
+      "dkfs": "会计单科分数",
+      "dkx": [
+        {
+          "year": "2026",
+          "typeaone": "51",
+          "typeatwo": "102",
+          "typebone": "46",
+          "typebtwo": "92"
+        },
+        {
+          "year": "2025",
+          "typeaone": "48",
+          "typeatwo": "96",
+          "typebone": "43",
+          "typebtwo": "86"
+        },
+        {
+          "year": "2024",
+          "typeaone": "52",
+          "typeatwo": "104",
+          "typebone": "47",
+          "typebtwo": "94"
+        },
+        {
+          "year": "2023",
+          "typeaone": "51",
+          "typeatwo": "102",
+          "typebone": "46",
+          "typebtwo": "92"
+        },
+        {
+          "year": "2022",
+          "typeaone": "50",
+          "typeatwo": "100",
+          "typebone": "45",
+          "typebtwo": "90"
+        }
+      ]
+    },
+    {
+      "name": "旅游管理",
+      "title": "旅游管理总分国家线趋势图",
+      "gjx": {
+        "typea": [
+          170,
+          167,
+          162,
+          151,
+          151
+        ],
+        "typeb": [
+          160,
+          157,
+          152,
+          141,
+          141
+        ]
+      },
+      "dkfs": "旅游管理单科分数",
+      "dkx": [
+        {
+          "year": "2026",
+          "typeaone": "35",
+          "typeatwo": "70",
+          "typebone": "30",
+          "typebtwo": "60"
+        },
+        {
+          "year": "2025",
+          "typeaone": "35",
+          "typeatwo": "70",
+          "typebone": "30",
+          "typebtwo": "60"
+        },
+        {
+          "year": "2024",
+          "typeaone": "39",
+          "typeatwo": "78",
+          "typebone": "34",
+          "typebtwo": "68"
+        },
+        {
+          "year": "2023",
+          "typeaone": "41",
+          "typeatwo": "82",
+          "typebone": "36",
+          "typebtwo": "72"
+        },
+        {
+          "year": "2022",
+          "typeaone": "42",
+          "typeatwo": "84",
+          "typebone": "37",
+          "typebtwo": "74"
+        }
+      ]
+    },
+    {
+      "name": "图书情报",
+      "title": "图书情报总分国家线趋势图",
+      "gjx": {
+        "typea": [
+          194,
+          198,
+          198,
+          191,
+          199
+        ],
+        "typeb": [
+          184,
+          188,
+          188,
+          181,
+          189
+        ]
+      },
+      "dkfs": "图书情报单科分数",
+      "dkx": [
+        {
+          "year": "2026",
+          "typeaone": "51",
+          "typeatwo": "102",
+          "typebone": "46",
+          "typebtwo": "92"
+        },
+        {
+          "year": "2025",
+          "typeaone": "48",
+          "typeatwo": "96",
+          "typebone": "43",
+          "typebtwo": "86"
+        },
+        {
+          "year": "2024",
+          "typeaone": "51",
+          "typeatwo": "102",
+          "typebone": "46",
+          "typebtwo": "92"
+        },
+        {
+          "year": "2023",
+          "typeaone": "52",
+          "typeatwo": "104",
+          "typebone": "47",
+          "typebtwo": "94"
+        },
+        {
+          "year": "2022",
+          "typeaone": "50",
+          "typeatwo": "100",
+          "typebone": "45",
+          "typebtwo": "90"
+        }
+      ]
+    },
+    {
+      "name": "工程管理",
+      "title": "工程管理总分国家线趋势图",
+      "gjx": {
+        "typea": [
+          189,
+          178,
+          176,
+          162,
+          166
+        ],
+        "typeb": [
+          179,
+          168,
+          166,
+          152,
+          156
+        ]
+      },
+      "dkfs": "工程管理单科分数",
+      "dkx": [
+        {
+          "year": "2026",
+          "typeaone": "39",
+          "typeatwo": "78",
+          "typebone": "34",
+          "typebtwo": "68"
+        },
+        {
+          "year": "2025",
+          "typeaone": "38",
+          "typeatwo": "76",
+          "typebone": "33",
+          "typebtwo": "66"
+        },
+        {
+          "year": "2024",
+          "typeaone": "43",
+          "typeatwo": "86",
+          "typebone": "38",
+          "typebtwo": "76"
+        },
+        {
+          "year": "2023",
+          "typeaone": "44",
+          "typeatwo": "88",
+          "typebone": "39",
+          "typebtwo": "78"
+        },
+        {
+          "year": "2022",
+          "typeaone": "47",
+          "typeatwo": "94",
+          "typebone": "42",
+          "typebtwo": "84"
+        }
+      ]
+    },
+    {
+      "name": "审计",
+      "title": "审计总分国家线趋势图",
+      "gjx": {
+        "typea": [
+          194,
+          197,
+          201,
+          194,
+          199
+        ],
+        "typeb": [
+          184,
+          187,
+          191,
+          184,
+          189
+        ]
+      },
+      "dkfs": "审计单科分数",
+      "dkx": [
+        {
+          "year": "2026",
+          "typeaone": "51",
+          "typeatwo": "102",
+          "typebone": "46",
+          "typebtwo": "92"
+        },
+        {
+          "year": "2025",
+          "typeaone": "48",
+          "typeatwo": "96",
+          "typebone": "43",
+          "typebtwo": "86"
+        },
+        {
+          "year": "2024",
+          "typeaone": "52",
+          "typeatwo": "104",
+          "typebone": "47",
+          "typebtwo": "94"
+        },
+        {
+          "year": "2023",
+          "typeaone": "51",
+          "typeatwo": "102",
+          "typebone": "46",
+          "typebtwo": "92"
+        },
+        {
+          "year": "2022",
+          "typeaone": "50",
+          "typeatwo": "100",
+          "typebone": "45",
+          "typebtwo": "90"
+        }
+      ],
+      "bz": "注：为更好地满足国家经济社会发展对高层次、应用型审计人才的需求，根据《研究生教育学科专业目录（2022年）》，审计硕士专业学位类别代码已调整为[1257]。 "
+    }
+  ],
+  "preferential_policies": [
+    {
+      "name": "报考“少数民族高层次骨干人才计划”和享受少数民族照顾政策考生2022年-2024年分数线",
+      "title": "2022年-2024年总分国家线趋势图",
+      "gjx": {
+        "typea": [
+          251,
+          251,
+          251
+        ],
+        "typeb": [
+          251,
+          251,
+          251
+        ]
+      },
+      "dkfs": "2022年-2024年享受少数民族照顾政策考生单科分数",
+      "dkx": [
+        {
+          "year": "2024",
+          "typeaone": "30",
+          "typeatwo": "45",
+          "typebone": "30",
+          "typebtwo": "45"
+        },
+        {
+          "year": "2023",
+          "typeaone": "30",
+          "typeatwo": "45",
+          "typebone": "30",
+          "typebtwo": "45"
+        },
+        {
+          "year": "2022",
+          "typeaone": "30",
+          "typeatwo": "45",
+          "typebone": "30",
+          "typebtwo": "45"
+        }
+      ]
+    }
+  ]
+}
